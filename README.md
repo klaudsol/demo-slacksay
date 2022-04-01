@@ -1,4 +1,4 @@
-#Demo Slacksay
+# Demo Slacksay
 
 This is a small demo program that demonstrate the ability to send Slack messages via chat.postMessage API.
 The advantage of using chat.postMessage over incoming webhooks is that it can be used for channels that you don't own.
