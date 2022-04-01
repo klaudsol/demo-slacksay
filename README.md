@@ -10,7 +10,5 @@ The advantage of using chat.postMessage over incoming webhooks is that it can be
 cp .env.sample .env #Replace the values with your own credentials
 yarn install
 yarn dev
+curl http://localhost:8080/api/slacksay?message=Hello,world. 
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
